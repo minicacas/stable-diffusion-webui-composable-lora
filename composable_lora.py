@@ -159,7 +159,7 @@ opt_uc_text_model_encoder = False
 opt_uc_diffusion_model = False
 verbose = True
 
-num_batches: int = 0
+num_batches = 0
 prompt_loras: List[Dict[str, float]] = []
 text_model_encoder_counter = -1
-diffusion_model_counter: int = 0
+diffusion_model_counter = 0
