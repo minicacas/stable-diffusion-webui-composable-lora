@@ -161,5 +161,5 @@ verbose = True
 
 num_batches: int = 0
 prompt_loras: List[Dict[str, float]] = []
-text_model_encoder_counter: int = -1
+text_model_encoder_counter = -1
 diffusion_model_counter: int = 0
